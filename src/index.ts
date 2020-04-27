@@ -1,13 +1,5 @@
-import names from './names'
-import offset from './offset'
-import offsetFormattedLong from './offsetFormattedLong'
-import offsetFormattedShort from './offsetFormattedShort'
-import suggested from './suggested'
-
-export {
-  names,
-  offset,
-  offsetFormattedLong,
-  offsetFormattedShort,
-  suggested,
-}
+export { default as names } from './names'
+export { default as offset } from './offset'
+export { default as offsetFormattedLong } from './offsetFormattedLong'
+export { default as offsetFormattedShort } from './offsetFormattedShort'
+export { default as suggested } from './suggested'
