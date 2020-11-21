@@ -4,6 +4,7 @@ import {
 } from '../src'
 
 const RE = /^GMT([+−]\d{1,2}(:\d{2})?)?$/
+const THIRTY_MINUTES_RE = /^GMT[+−]\d:30$/
 
 const rubbishTimezone = 'shit'
 
@@ -19,10 +20,17 @@ describe('offsetFormattedShort', () => {
   it('should output correct sign', () => {
     const ny = offsetFormattedShort('America/New_York')!
     const moscow = offsetFormattedShort('Europe/Moscow')!
+    const kolkata = offsetFormattedShort('Asia/Kolkata')!
     const gmt = offsetFormattedShort('GMT')
     expect(ny[3]).toBe('−')
     expect(moscow[3]).toBe('+')
+    expect(kolkata[3]).toBe('+')
     expect(gmt).toBe('GMT')
+  })
+
+  it('should output minutes for fractional timezones', () => {
+    const kolkata = offsetFormattedShort('Asia/Kolkata')
+    expect(kolkata).toMatch(THIRTY_MINUTES_RE)
   })
 
   it('should work correctly with rubbish data', () => {
