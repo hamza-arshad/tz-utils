@@ -3,7 +3,7 @@ import {
   offsetFormattedLong,
 } from '../src'
 
-const RE = /^GMT[+-]\d{2}:\d{2}$/
+const RE = /^GMT[+−]\d{2}:\d{2}$/
 
 const rubbishTimezone = 'shit'
 
@@ -19,7 +19,7 @@ describe('offsetFormattedLong', () => {
     const ny = offsetFormattedLong('America/New_York')!
     const moscow = offsetFormattedLong('Europe/Moscow')!
     const gmt = offsetFormattedLong('GMT')
-    expect(ny[3]).toBe('-')
+    expect(ny[3]).toBe('−')
     expect(moscow[3]).toBe('+')
     expect(gmt).toBe('GMT+00:00')
   })

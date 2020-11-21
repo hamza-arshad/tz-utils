@@ -11,5 +11,5 @@ export default (timezone: string) => {
   }
 
   const m = moment.tz(timezone)
-  return `GMT${m.format('Z')}`
+  return `GMT${m.format('Z')}`.replace(/-/g, '−')
 }
