@@ -1,7 +1,8 @@
 import moment from 'moment-timezone'
 
 import replaceMinus from './utils/replaceMinus'
-import names from './names'
+
+const names = moment.tz.names()
 
 /**
  * @return GMT+00:00, GMT+01:00, GMT+04:30, GMT-11:00

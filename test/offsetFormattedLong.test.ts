@@ -1,5 +1,6 @@
 import {
   names as timezoneNames,
+  deprecatedNames,
   offsetFormattedLong,
 } from '../src'
 
@@ -8,8 +9,13 @@ const THIRTY_MINUTES_RE = /^GMT[+−]\d{2}:30$/
 
 const rubbishTimezone = 'shit'
 
+const allNames = [
+  ...timezoneNames,
+  ...deprecatedNames,
+]
+
 describe('offsetFormattedLong', () => {
-  for (const tz of timezoneNames) {
+  for (const tz of allNames) {
     it(`should output correct result for ${tz}`, () => {
       const result = offsetFormattedLong(tz)
       expect(result).toMatch(RE)

@@ -1,6 +1,6 @@
 import moment from 'moment-timezone'
 
-import names from './names'
+const names = moment.tz.names()
 
 /**
  * @return GMT, GMT+1, GMT+4:30, GMT−11

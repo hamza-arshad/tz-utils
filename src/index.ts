@@ -1,5 +1,5 @@
 export { default as formatDateTz } from './formatDateTz'
-export { default as names } from './names'
+export { default as names, deprecated as deprecatedNames } from './names'
 export { default as offset } from './offset'
 export { default as offsetFormattedLong } from './offsetFormattedLong'
 export { default as offsetFormattedShort } from './offsetFormattedShort'
