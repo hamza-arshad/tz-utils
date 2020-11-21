@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, Europe/London) 1`] = `"2019-11-15, 23:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, Europe/Moscow) 1`] = `"2019-11-16, 02:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, Europe/Paris) 1`] = `"2019-11-16, 00:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, UTC) 1`] = `"2019-11-15, 23:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, Europe/London) 1`] = `"2019-11-16, 00:43:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, Europe/Moscow) 1`] = `"2019-11-16, 03:43:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, Europe/Paris) 1`] = `"2019-11-16, 01:43:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, UTC) 1`] = `"2019-11-16, 00:43:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, Europe/London) 1`] = `"2019-11-16, 00:44:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, Europe/Moscow) 1`] = `"2019-11-16, 03:44:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, Europe/Paris) 1`] = `"2019-11-16, 01:44:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, UTC) 1`] = `"2019-11-16, 00:44:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, Europe/London) 1`] = `"2019-11-16, 00:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, Europe/Moscow) 1`] = `"2019-11-16, 03:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, Europe/Paris) 1`] = `"2019-11-16, 01:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, UTC) 1`] = `"2019-11-16, 00:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, Europe/London) 1`] = `"2019-11-16, 23:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, Europe/Moscow) 1`] = `"2019-11-17, 02:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, Europe/Paris) 1`] = `"2019-11-17, 00:45:45"`;
+
+exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, UTC) 1`] = `"2019-11-16, 23:45:45"`;
