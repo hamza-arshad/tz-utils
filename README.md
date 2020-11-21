@@ -14,6 +14,7 @@ yarn add @calipsa/tz-utils
 ## Usage
 ```javascript
 import {
+  formatDateTz,
   names,
   offset,
   offsetFormattedLong,
