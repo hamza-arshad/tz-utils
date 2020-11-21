@@ -30,7 +30,6 @@
   "author": "Anton Veselev",
   "license": "ISC",
   "dependencies": {
-    "@types/moment-timezone": "^0.5.30",
     "date-fns": "^2.16.1",
     "date-fns-tz": "^1.0.12",
     "moment-timezone": "^0.5.32"
