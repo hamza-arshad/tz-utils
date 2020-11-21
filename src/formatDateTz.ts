@@ -1,5 +1,7 @@
-import utcToZonedTime from 'date-fns-tz/utcToZonedTime'
-import formatDate from 'date-fns-tz/format/index'
+import {
+  utcToZonedTime,
+  format as formatDate,
+} from 'date-fns-tz'
 
 type DateInput = Parameters<typeof utcToZonedTime>[0]
 
