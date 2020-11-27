@@ -3,6 +3,7 @@ import moment from 'moment-timezone'
 import {
   names as timezoneNames,
   deprecatedNames,
+  notWorkingInDateFnsNames,
   offset,
 } from '../src'
 
@@ -13,6 +14,7 @@ import {
 const allNames = [
   ...timezoneNames,
   ...deprecatedNames,
+  ...notWorkingInDateFnsNames,
 ]
 
 describe('offset', () => {

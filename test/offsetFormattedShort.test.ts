@@ -1,6 +1,7 @@
 import {
   names as timezoneNames,
   deprecatedNames,
+  notWorkingInDateFnsNames,
   offsetFormattedShort,
 } from '../src'
 
@@ -12,6 +13,7 @@ const rubbishTimezone = 'shit'
 const allNames = [
   ...timezoneNames,
   ...deprecatedNames,
+  ...notWorkingInDateFnsNames,
 ]
 
 describe('offsetFormattedShort', () => {

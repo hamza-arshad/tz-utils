@@ -34,4 +34,12 @@ describe('formatDateTz', () => {
       expect(res1).toBe(res2)
     })
   }
+
+  for (const date of dates) {
+    test(`splitDate not working in date-fns tz (${date})`, () => {
+      const res1 = formatDateTz(date, FORMAT, 'Etc/GMT-3')
+      const res2 = formatDateTz(date, FORMAT, 'Europe/Moscow')
+      expect(res1).toBe(res2)
+    })
+  }
 })
