@@ -26,4 +26,12 @@ describe('formatDateTz', () => {
       })
     }
   }
+
+  for (const date of dates) {
+    test(`splitDate deprecated tz (${date})`, () => {
+      const res1 = formatDateTz(date, FORMAT, 'Navajo')
+      const res2 = formatDateTz(date, FORMAT, 'America/Denver')
+      expect(res1).toBe(res2)
+    })
+  }
 })
