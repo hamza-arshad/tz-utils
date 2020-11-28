@@ -7,7 +7,7 @@ const timezones = [
   'Europe/London',
   'Europe/Paris',
   'Europe/Moscow',
-]
+] as const
 
 const dates = [
   '2019-11-16T00:44:45.392Z',
