@@ -10,11 +10,11 @@ const lookupObj = {
   ...notWorkingInDateFns,
 }
 
-type WorkingNames = (typeof workingNames)[number]
-type DeprecatedNames = keyof typeof deprecated
+type WorkingName = (typeof workingNames)[number]
+type DeprecatedName = keyof typeof deprecated
 type NotWorkingInDateFnsName = keyof typeof notWorkingInDateFns
 
-export default (timezone: string): WorkingNames | undefined =>
-  workingNamesSet.has(timezone as WorkingNames)
-    ? timezone as WorkingNames
-    : lookupObj[timezone as DeprecatedNames | NotWorkingInDateFnsName] as WorkingNames | undefined
+export default (timezone: string): WorkingName | undefined =>
+  workingNamesSet.has(timezone as WorkingName)
+    ? timezone as WorkingName
+    : lookupObj[timezone as DeprecatedName | NotWorkingInDateFnsName] as WorkingName | undefined
