@@ -2,46 +2,31 @@ import {
   names as timezoneNames,
   deprecatedNames,
   notWorkingInDateFnsNames,
-  offsetFormattedLong,
 } from '../src'
 
-const RE = /^GMT[+-]\d{2}:\d{2}$/
-const THIRTY_MINUTES_RE = /^GMT[+-]\d{2}:30$/
+import { configurable } from '../src/offsetFormattedLong'
 
-const rubbishTimezone = 'shit'
+import dates from './data/dates'
 
-const allNames = [
+const timezones = [
   ...timezoneNames,
   ...deprecatedNames,
   ...notWorkingInDateFnsNames,
 ]
 
 describe('offsetFormattedLong', () => {
-  for (const tz of allNames) {
-    it(`should output correct result for ${tz}`, () => {
-      const result = offsetFormattedLong(tz)
-      expect(result).toMatch(RE)
+  for (const date of dates) {
+    const offsetFormattedLong = configurable(() => new Date(date))
+    for (const tz of timezones) {
+      it(`should output correct result for (${date}, ${tz})`, () => {
+        const result = offsetFormattedLong(tz)
+        expect(result).toMatchSnapshot()
+      })
+    }
+
+    it(`should work correctly with rubbish data (${date})`, () => {
+      const result = offsetFormattedLong('shit')
+      expect(result).toBe(null)
     })
   }
-
-  it('should output correct sign', () => {
-    const ny = offsetFormattedLong('America/New_York')!
-    const moscow = offsetFormattedLong('Europe/Moscow')!
-    const kolkata = offsetFormattedLong('Asia/Kolkata')!
-    const gmt = offsetFormattedLong('GMT')
-    expect(ny[3]).toBe('-')
-    expect(moscow[3]).toBe('+')
-    expect(kolkata[3]).toBe('+')
-    expect(gmt).toBe('GMT+00:00')
-  })
-
-  it('should output minutes for fractional timezones', () => {
-    const kolkata = offsetFormattedLong('Asia/Kolkata')
-    expect(kolkata).toMatch(THIRTY_MINUTES_RE)
-  })
-
-  it('should work correctly with rubbish data', () => {
-    const result = offsetFormattedLong(rubbishTimezone)
-    expect(result).toBe(null)
-  })
 })

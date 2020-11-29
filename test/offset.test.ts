@@ -4,25 +4,31 @@ import {
   names as timezoneNames,
   deprecatedNames,
   notWorkingInDateFnsNames,
-  offset,
 } from '../src'
+
+import { configurable } from '../src/offset'
 
 import {
   notWorkingInMoment as notWorkingInMomentTimezoneNames,
 } from '../src/data/names'
 
-const allNames = [
+import dates from './data/dates'
+
+const timezones = [
   ...timezoneNames,
   ...deprecatedNames,
   ...notWorkingInDateFnsNames,
 ]
 
 describe('offset', () => {
-  for (const tz of allNames) {
-    it(`should output correct result for ${tz}`, () => {
-      const result = offset(tz)
-      expect(result).toBe(moment.tz(tz).utcOffset())
-    })
+  for (const date of dates) {
+    const offset = configurable(() => new Date(date))
+    for (const tz of timezones) {
+      it(`should output correct result for (${date}, ${tz})`, () => {
+        const result = offset(tz)
+        expect(result).toMatchSnapshot()
+      })
+    }
   }
 
   for (const tz of notWorkingInMomentTimezoneNames) {
