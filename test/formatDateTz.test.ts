@@ -1,20 +1,18 @@
-import { formatDateTz } from '../src'
+import {
+  formatDateTz,
+  names as timezoneNames,
+  deprecatedNames,
+  notWorkingInDateFnsNames,
+} from '../src'
+
+import dates from './data/dates'
 
 const FORMAT = 'yyyy-MM-dd, HH:mm:ss'
 
 const timezones = [
-  'UTC',
-  'Europe/London',
-  'Europe/Paris',
-  'Europe/Moscow',
-] as const
-
-const dates = [
-  '2019-11-16T00:44:45.392Z',
-  '2019-11-16T00:43:45.392Z',
-  '2019-11-16T00:45:45.392Z',
-  '2019-11-15T23:45:45.392Z',
-  '2019-11-16T23:45:45.392Z',
+  ...timezoneNames,
+  ...deprecatedNames,
+  ...notWorkingInDateFnsNames,
 ]
 
 describe('formatDateTz', () => {
