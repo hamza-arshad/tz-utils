@@ -1,6 +1,6 @@
 {
   "name": "@calipsa/tz-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JavaScript timezone utils",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
