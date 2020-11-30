@@ -3,7 +3,7 @@ import moment from 'moment-timezone'
 const names = moment.tz.names()
 
 /**
- * @return GMT, GMT+1, GMT+4:30, GMT−11
+ * @return GMT, GMT+1, GMT+4:30, GMT-11
  */
 export default (timezone: string) => {
   if (!names.includes(timezone)) {
@@ -19,7 +19,7 @@ export default (timezone: string) => {
   }
 
   const hours = +h
-  const sign = hours < 0 ? '−' : '+'
+  const sign = hours < 0 ? '-' : '+'
 
   return `GMT${sign}${Math.abs(hours)}${m === '00' ? '' : `:${m}`}`
 }

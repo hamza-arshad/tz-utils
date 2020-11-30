@@ -1,7 +1,5 @@
 import moment from 'moment-timezone'
 
-import replaceMinus from './utils/replaceMinus'
-
 const names = moment.tz.names()
 
 /**
@@ -13,6 +11,5 @@ export default (timezone: string) => {
   }
 
   const m = moment.tz(timezone)
-  const s = `GMT${m.format('Z')}`
-  return replaceMinus(s)
+  return `GMT${m.format('Z')}`
 }

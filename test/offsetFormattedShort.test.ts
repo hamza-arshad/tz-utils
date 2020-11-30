@@ -5,8 +5,8 @@ import {
   offsetFormattedShort,
 } from '../src'
 
-const RE = /^GMT([+−]\d{1,2}(:\d{2})?)?$/
-const THIRTY_MINUTES_RE = /^GMT[+−]\d:30$/
+const RE = /^GMT([+-]\d{1,2}(:\d{2})?)?$/
+const THIRTY_MINUTES_RE = /^GMT[+-]\d:30$/
 
 const rubbishTimezone = 'shit'
 
@@ -30,7 +30,7 @@ describe('offsetFormattedShort', () => {
     const moscow = offsetFormattedShort('Europe/Moscow')!
     const kolkata = offsetFormattedShort('Asia/Kolkata')!
     const gmt = offsetFormattedShort('GMT')
-    expect(ny[3]).toBe('−')
+    expect(ny[3]).toBe('-')
     expect(moscow[3]).toBe('+')
     expect(kolkata[3]).toBe('+')
     expect(gmt).toBe('GMT')
