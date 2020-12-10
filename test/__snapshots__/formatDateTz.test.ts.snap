@@ -17868,9 +17868,9 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, Africa/Tunis) 1`] = `
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, Africa/Windhoek) 1`] = `"2020-11-01, 14:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Adak) 1`] = `"2020-11-01, 02:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Adak) 1`] = `"2020-11-01, 03:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Anchorage) 1`] = `"2020-11-01, 03:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Anchorage) 1`] = `"2020-11-01, 04:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Anguilla) 1`] = `"2020-11-01, 08:30:45"`;
 
@@ -17910,7 +17910,7 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Asuncion) 1`]
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Atikokan) 1`] = `"2020-11-01, 07:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Atka) 1`] = `"2020-11-01, 02:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Atka) 1`] = `"2020-11-01, 03:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Bahia) 1`] = `"2020-11-01, 09:30:45"`;
 
@@ -18038,7 +18038,7 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Jamaica) 1`] 
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Jujuy) 1`] = `"2020-11-01, 09:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Juneau) 1`] = `"2020-11-01, 03:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Juneau) 1`] = `"2020-11-01, 04:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Kentucky/Louisville) 1`] = `"2020-11-01, 07:30:45"`;
 
@@ -18078,7 +18078,7 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Menominee) 1`
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Merida) 1`] = `"2020-11-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Metlakatla) 1`] = `"2020-11-01, 03:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Metlakatla) 1`] = `"2020-11-01, 04:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Mexico_City) 1`] = `"2020-11-01, 06:30:45"`;
 
@@ -18100,7 +18100,7 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/New_York) 1`]
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Nipigon) 1`] = `"2020-11-01, 07:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Nome) 1`] = `"2020-11-01, 03:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Nome) 1`] = `"2020-11-01, 04:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Noronha) 1`] = `"2020-11-01, 10:30:45"`;
 
@@ -18162,7 +18162,7 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Scoresbysund)
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Shiprock) 1`] = `"2020-11-01, 05:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Sitka) 1`] = `"2020-11-01, 03:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Sitka) 1`] = `"2020-11-01, 04:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/St_Barthelemy) 1`] = `"2020-11-01, 08:30:45"`;
 
@@ -18198,7 +18198,7 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Whitehorse) 1
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Winnipeg) 1`] = `"2020-11-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Yakutat) 1`] = `"2020-11-01, 03:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Yakutat) 1`] = `"2020-11-01, 04:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-11-01, 05:30:45"`;
 
@@ -18910,9 +18910,9 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, Turkey) 1`] = `"2020-
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, UCT) 1`] = `"2020-11-01, 12:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, US/Alaska) 1`] = `"2020-11-01, 03:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, US/Alaska) 1`] = `"2020-11-01, 04:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, US/Aleutian) 1`] = `"2020-11-01, 02:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, US/Aleutian) 1`] = `"2020-11-01, 03:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, US/Arizona) 1`] = `"2020-11-01, 05:30:45"`;
 
