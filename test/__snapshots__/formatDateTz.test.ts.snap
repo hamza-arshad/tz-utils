@@ -442,7 +442,7 @@ exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, America/Yellowknife) 1`] = `"2019-11-15, 16:45:45"`;
 
-exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 10:45:45"`;
+exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 07:45:45"`;
 
 exports[`formatDateTz splitDate (2019-11-15T23:45:45.392Z, Antarctica/Davis) 1`] = `"2019-11-16, 06:45:45"`;
 
@@ -1626,7 +1626,7 @@ exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, America/Yellowknife) 1`] = `"2019-11-15, 17:43:45"`;
 
-exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 11:43:45"`;
+exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 08:43:45"`;
 
 exports[`formatDateTz splitDate (2019-11-16T00:43:45.392Z, Antarctica/Davis) 1`] = `"2019-11-16, 07:43:45"`;
 
@@ -2810,7 +2810,7 @@ exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, America/Yellowknife) 1`] = `"2019-11-15, 17:44:45"`;
 
-exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 11:44:45"`;
+exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 08:44:45"`;
 
 exports[`formatDateTz splitDate (2019-11-16T00:44:45.392Z, Antarctica/Davis) 1`] = `"2019-11-16, 07:44:45"`;
 
@@ -3994,7 +3994,7 @@ exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, America/Yellowknife) 1`] = `"2019-11-15, 17:45:45"`;
 
-exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 11:45:45"`;
+exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, Antarctica/Casey) 1`] = `"2019-11-16, 08:45:45"`;
 
 exports[`formatDateTz splitDate (2019-11-16T00:45:45.392Z, Antarctica/Davis) 1`] = `"2019-11-16, 07:45:45"`;
 
@@ -5178,7 +5178,7 @@ exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, America/Yellowknife) 1`] = `"2019-11-16, 16:45:45"`;
 
-exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, Antarctica/Casey) 1`] = `"2019-11-17, 10:45:45"`;
+exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, Antarctica/Casey) 1`] = `"2019-11-17, 07:45:45"`;
 
 exports[`formatDateTz splitDate (2019-11-16T23:45:45.392Z, Antarctica/Davis) 1`] = `"2019-11-17, 06:45:45"`;
 
@@ -6362,7 +6362,7 @@ exports[`formatDateTz splitDate (2020-01-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-01-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-01-01, 05:30:45"`;
 
-exports[`formatDateTz splitDate (2020-01-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-01-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-01-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-01-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-01-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-01-01, 19:30:45"`;
 
@@ -7546,7 +7546,7 @@ exports[`formatDateTz splitDate (2020-02-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-02-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-02-01, 05:30:45"`;
 
-exports[`formatDateTz splitDate (2020-02-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-02-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-02-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-02-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-02-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-02-01, 19:30:45"`;
 
@@ -8730,7 +8730,7 @@ exports[`formatDateTz splitDate (2020-03-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-03-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-03-01, 05:30:45"`;
 
-exports[`formatDateTz splitDate (2020-03-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-03-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-03-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-03-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-03-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-03-01, 19:30:45"`;
 
@@ -9914,7 +9914,7 @@ exports[`formatDateTz splitDate (2020-04-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-04-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-04-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-04-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-04-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-04-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-04-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-04-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-04-01, 19:30:45"`;
 
@@ -11098,7 +11098,7 @@ exports[`formatDateTz splitDate (2020-05-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-05-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-05-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-05-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-05-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-05-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-05-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-05-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-05-01, 19:30:45"`;
 
@@ -12282,7 +12282,7 @@ exports[`formatDateTz splitDate (2020-06-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-06-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-06-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-06-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-06-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-06-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-06-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-06-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-06-01, 19:30:45"`;
 
@@ -13466,7 +13466,7 @@ exports[`formatDateTz splitDate (2020-07-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-07-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-07-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-07-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-07-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-07-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-07-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-07-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-07-01, 19:30:45"`;
 
@@ -14650,7 +14650,7 @@ exports[`formatDateTz splitDate (2020-08-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-08-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-08-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-08-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-08-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-08-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-08-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-08-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-08-01, 19:30:45"`;
 
@@ -15834,7 +15834,7 @@ exports[`formatDateTz splitDate (2020-09-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-09-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-09-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-09-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-09-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-09-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-09-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-09-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-09-01, 19:30:45"`;
 
@@ -17018,7 +17018,7 @@ exports[`formatDateTz splitDate (2020-10-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-10-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-10-01, 06:30:45"`;
 
-exports[`formatDateTz splitDate (2020-10-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-10-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-10-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-10-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-10-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-10-01, 19:30:45"`;
 
@@ -18202,7 +18202,7 @@ exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-11-01, 05:30:45"`;
 
-exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-11-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-11-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-11-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-11-01, 19:30:45"`;
 
@@ -19386,7 +19386,7 @@ exports[`formatDateTz splitDate (2020-12-01T12:30:45.678Z, America/Yakutat) 1`] 
 
 exports[`formatDateTz splitDate (2020-12-01T12:30:45.678Z, America/Yellowknife) 1`] = `"2020-12-01, 05:30:45"`;
 
-exports[`formatDateTz splitDate (2020-12-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-12-01, 23:30:45"`;
+exports[`formatDateTz splitDate (2020-12-01T12:30:45.678Z, Antarctica/Casey) 1`] = `"2020-12-01, 20:30:45"`;
 
 exports[`formatDateTz splitDate (2020-12-01T12:30:45.678Z, Antarctica/Davis) 1`] = `"2020-12-01, 19:30:45"`;
 

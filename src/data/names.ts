@@ -82,7 +82,6 @@ export const notWorkingInDateFnsNoFallback = [
 export const notWorkingInDateFns = {
   'America/Blanc-Sablon': 'America/Barbados',
   'America/Port-au-Prince': 'America/Havana',
-  'Antarctica/Casey': 'Pacific/Efate',
   'Asia/Ust-Nera': 'Asia/Vladivostok',
   'Etc/GMT+1': 'Atlantic/Cape_Verde',
   'Etc/GMT+10': 'Pacific/Honolulu',
@@ -331,6 +330,7 @@ export default [
   'America/Winnipeg',
   'America/Yakutat',
   'America/Yellowknife',
+  'Antarctica/Casey',
   'Antarctica/Davis',
   'Antarctica/DumontDUrville',
   'Antarctica/Macquarie',
