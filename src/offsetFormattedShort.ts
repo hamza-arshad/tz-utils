@@ -1,5 +1,7 @@
 import moment from 'moment-timezone'
 
+import getNow from './utils/getNow'
+
 const names = moment.tz.names()
 
 export const configurable = (getRelativeDate: () => Date) =>
@@ -25,4 +27,4 @@ export const configurable = (getRelativeDate: () => Date) =>
     return `GMT${sign}${Math.abs(hours)}${m === '00' ? '' : `:${m}`}`
   }
 
-export default configurable(() => new Date())
+export default configurable(getNow)
