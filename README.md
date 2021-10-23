@@ -92,20 +92,6 @@ const date = new Date('2021-10-10T03:00:00.005Z')
 const dateInNYTz = formatDateTz(date, 'yyyy-MM-dd hh:mm:ss', 'America/New_York')
 ```
 
-## Usage
-```javascript
-import {
-  formatDateTz,
-  names,
-  offset,
-  offsetFormattedLong,
-  offsetFormattedShort,
-  suggested,
-} from '@calipsa/tz-utils'
-
-// ...
-```
-
 [npm-url]: https://npmjs.org/package/@calipsa/tz-utils
 [downloads-image]: http://img.shields.io/npm/dm/@calipsa/tz-utils.svg
 [npm-image]: http://img.shields.io/npm/v/@calipsa/tz-utils.svg
