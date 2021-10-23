@@ -227,7 +227,7 @@ import {
 
 const offsetNYC = offset('America/New_York') // will return GMT-4
 
-const offsetKarachi = offset('Asia/Kolkata') // will return GMT+05:30
+const offsetKarachi = offset('Asia/Kolkata') // will return GMT+5:30
 ```
 
 <h4>offsetFormattedLong</h4>
@@ -277,7 +277,7 @@ import {
 
 const offsetNYC = offset('America/New_York') // will return GMT-04:00
 
-const offsetKarachi = offset('Asia/Karachi') // will return GMT+05:00
+const offsetKarachi = offset('Asia/Kolkata') // will return GMT+05:30
 ```
 
 <h4>suggested</h4>
