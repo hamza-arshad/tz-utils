@@ -178,7 +178,7 @@ import {
 
 const offsetNYC = offset('America/New_York') // will return -240 (GMT-4)
 
-const offsetKarachi = offset('Asia/Karachi') // will return 300 (GMT+5)
+const offsetKolkata = offset('Asia/Kolkata') // will return 330 (GMT+5:30)
 ```
 <h4>offsetFormattedShort</h4>
 <p>You can use this function to get the time difference of the passed timezone from UTC. The return value will be a string like <code>GMT-4</code> or <code>GMT+5:30</code>.</p>
@@ -227,7 +227,7 @@ import {
 
 const offsetNYC = offset('America/New_York') // will return GMT-4
 
-const offsetKarachi = offset('Asia/Kolkata') // will return GMT+5:30
+const offsetKolkata = offset('Asia/Kolkata') // will return GMT+5:30
 ```
 
 <h4>offsetFormattedLong</h4>
@@ -277,7 +277,7 @@ import {
 
 const offsetNYC = offset('America/New_York') // will return GMT-04:00
 
-const offsetKarachi = offset('Asia/Kolkata') // will return GMT+05:30
+const offsetKolkata = offset('Asia/Kolkata') // will return GMT+05:30
 ```
 
 <h4>suggested</h4>
